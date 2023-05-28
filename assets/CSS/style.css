@@ -4,6 +4,8 @@
     font-family: sans-serif;
     font-size: 16px;
 }
+
+                            /* modificando logo y menu de navegacion */
 header{
     display: flex;
     justify-content: center;
@@ -41,7 +43,6 @@ h1{
     width: 90%;
     display: flex;
     justify-content: space-around;
-    /* background-color: blueviolet; */
 }
 
 .fondo-a{ /* proporcionando tamaño al boton */
@@ -83,6 +84,7 @@ h1{
     opacity: 100%;
 }
 
+                            /* background del sitio */
 
 main{
     background-color: #2F3840;
@@ -107,7 +109,7 @@ main{
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* estilo de la seccion de inicio */
+                            /* estilo de la seccion de inicio */
 .main-section img{
     margin-top: 40px;
     width: 600px;
@@ -118,7 +120,7 @@ main{
 .main-parrafo{
     margin-top: 30px;
 }
-/* estilo de la sección "clases.html" */
+                            /* estilo de la sección "clases.html" */
 
 .video-container{ /* modificando tamaño de iframe */
     position: relative;
@@ -173,16 +175,12 @@ th, td{
     background-image: linear-gradient(#852436, #590212, #2f010a, #590212, #852436);    
 }
 
-.clase-parrafo{
+.clase-parrafo, .clase-boton{
     margin-top: 40px;
     
 }
 
-.clase-boton{
-    margin-top: 40px;
-}
-
-/* modificando formulario*/
+                            /* modificando formulario*/
 
 .encabezado{
     text-align: center;
@@ -261,7 +259,7 @@ form > div{
     box-shadow:  1px 1px 5px 1px rgba(0, 0, 0, 0.3);
 }
 
-/* modificando estilo de la sección contacto*/
+                            /* modificando estilo de la sección contacto*/
 
 .mapa div{
     margin-top: 40px;
@@ -313,7 +311,7 @@ form > div{
     color: #BFADA8;
 }
 
-
+                            /* propiedades del footer*/
 
 footer{
     background-color: #0D0D0D;
@@ -339,11 +337,7 @@ footer{
 
 
 
-
-
-
-
-
+                                    /* apartado responsive */
 
 @media (max-width:576px){
     header{
@@ -368,12 +362,5 @@ footer{
     }
     .formulario{
         margin: 10px;
-    }
-
-}
-@media (max-width:968px){
-    .form-bg h1, .form-bg h2, .form-bg p{
-        width: 100%;
-        text-align: center;
     }
 }
