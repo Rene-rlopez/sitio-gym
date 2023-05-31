@@ -363,4 +363,7 @@ footer{
     .formulario{
         margin: 10px;
     }
+    .welcome{
+        height: 180px;
+    }
 }
